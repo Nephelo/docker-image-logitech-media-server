@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:bionic
 MAINTAINER Lars Kellogg-Stedman <lars@oddbit.com>
 
 ENV SQUEEZE_VOL /srv/squeezebox
