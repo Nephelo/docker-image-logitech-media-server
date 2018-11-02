@@ -1,7 +1,7 @@
-# Docker Container for Logitech Media Server
+# Docker Container for Logitech Media Server (LMS)
 
 This is a Docker image for running the Logitech Media Server package
-(aka SqueezeboxServer).
+(aka SqueezeboxServer). Currently running version v7.9.1.
 
 Run Directly:
 
@@ -11,6 +11,4 @@ Run Directly:
                -p 3483:3483/udp \
                -v <local-state-dir>:/srv/squeezebox \
                -v <audio-dir>:/srv/music \
-               larsks/logitech/media-server
-
-
+               nephelo/docker-image-logitech-media-server
